@@ -146,6 +146,23 @@ button {
     margin-top: 30px;
 }
 
+.menu-buttons {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: VegurRegular;
+    color: #fff;
+    background-color: #103947;
+    border-color: #103947;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
 
 .fa {
     color: rgb(170, 136, 5);
