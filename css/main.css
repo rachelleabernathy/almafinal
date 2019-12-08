@@ -22,26 +22,29 @@ body {
     line-height: 1.7;
     background-color: #fffcf3; 
     display: block;
-
 }
 
-
-.container {
-    display: flex;
-    flex-direction: row-reverse;
+h1 {
+    color: rgb(16, 57, 71);
+    display: block;
+    font-family: VegurRegular;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
 }
 
-.container  .image {
-    flex: 1 0 0%;
-
+.sidebar {
+    height: 100%;
+    width: 242px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
-.image img {
-    vertical-align: top;
-}
-
-.container .text {
-    flex: 2 0 0%;
+.main {
+    margin-left: 242px;
 }
 
 
@@ -55,8 +58,29 @@ body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background: #103947;
-    max-width: 305px;
+    max-width: 242px;
     float: left;
+}
+
+a:link {
+    color: rgb(170, 136, 5);
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: rgb(170, 136, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.active {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .site-logo {
@@ -69,7 +93,7 @@ body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background: #103947;
-    width: 305px;
+    width: 242px;
     float: left;
 }
 
